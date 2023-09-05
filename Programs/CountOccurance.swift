@@ -50,3 +50,23 @@ func countOccurrences(arr: [Int], x: Int ) -> Int {
 let arr  = [1, 1, 2, 2, 2, 2, 3]
 let count = countOccurrences(arr: arr, x: 2)
 print(count)
+
+// Linear search - Time Complexity: O(n) Space Complexity: O(1), as no extra space is used
+
+
+/*func countOccurrences(arr: [Int], x: Int ) -> Int {
+    var count = 0
+   // let dict = [Int:Int]()
+    
+    for element in arr {
+        if x == element {
+            count = count+1
+        }
+    }
+    return count
+}
+
+let arr  = [1, 1, 2, 2, 2, 2, 3]
+let count = countOccurrences(arr: arr, x: 4)
+print(count)
+*/
